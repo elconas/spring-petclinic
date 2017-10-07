@@ -78,6 +78,13 @@
       <scope>runtime</scope>
     </dependency>
 
+    <!-- DB Migration -->
+    <dependency>
+      <groupId>org.flywaydb</groupId>
+      <artifactId>flyway-core</artifactId>
+      <version>4.2.0</version>
+    </dependency>
+
     <!-- caching -->
     <dependency>
       <groupId>javax.cache</groupId>
